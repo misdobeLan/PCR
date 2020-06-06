@@ -51,14 +51,18 @@ sleep(3.0)
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 
-'''sleep(1.0)
-touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
-touch(Template(r"tpl1591434946614.png", record_pos=(-0.002, 0.255), resolution=(1600, 900)))
-'''
-
 touch(Template(r"tpl1591433155402.png", record_pos=(0.358, 0.14), resolution=(1600, 900)))
 
 touch(Template(r"tpl1591433014849.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
 touch(Template(r"tpl1591433661947.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
+
+#工会之家收集物品
+sleep(3.0)
+touch(Template(r"tpl1591450693894.png", record_pos=(0.149, 0.259), resolution=(1600, 900)))
+
+touch(Template(r"tpl1591450723419.png", record_pos=(0.437, 0.16), resolution=(1600, 900)))
+touch(Template(r"tpl1591450741225.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)))
+
+
 
 
