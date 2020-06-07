@@ -63,6 +63,16 @@ touch(Template(r"tpl1591450693894.png", record_pos=(0.149, 0.259), resolution=(1
 touch(Template(r"tpl1591450723419.png", record_pos=(0.437, 0.16), resolution=(1600, 900)))
 touch(Template(r"tpl1591450741225.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)))
 
+#首页收集礼物箱
+sleep(3.0)
+
+
+touch(Template(r"tpl1591520373056.png", record_pos=(-0.398, 0.255), resolution=(1280, 720)))
+
+touch(Template(r"tpl1591520393705.png", record_pos=(0.445, 0.177), resolution=(1280, 720)))
+
+touch(Template(r"tpl1591520483670.png", record_pos=(0.065, 0.216), resolution=(1280, 720)))
+
 
 
 
