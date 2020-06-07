@@ -32,7 +32,7 @@ touch(Template(r"tpl1591432196319.png", record_pos=(0.001, 0.215), resolution=(1
 
 sleep(2.0)
 
-#进入冒险、收菜
+##############################进入冒险、收菜JJC、PJJC
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 #进入JJC
@@ -77,7 +77,7 @@ touch(Template(r"tpl1591524127244.png", record_pos=(0.195, 0.214), resolution=(1
 touch(Template(r"tpl1591524140258.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)))
 
 
-#地下城、战斗时间90秒
+##############################地下城、战斗时间90秒
 '''
 sleep(3.0)
 
