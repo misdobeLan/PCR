@@ -77,7 +77,7 @@ touch(Template(r"tpl1591524127244.png", record_pos=(0.195, 0.214), resolution=(1
 touch(Template(r"tpl1591524140258.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)))
 
 
-#首页收集礼物箱
+#地下城、战斗时间90秒
 '''
 sleep(3.0)
 
@@ -92,20 +92,77 @@ touch(Template(r"tpl1591524444046.png", record_pos=(0.321, -0.1), resolution=(12
 
 touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 
-#战斗时间
 sleep(90.0)
 touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
-
 sleep(3.0)
+
 
 touch(Template(r"tpl1591524629596.png", record_pos=(-0.216, 0.027), resolution=(1280, 720)))
 touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
+
+touch(Template(r"tpl1591525454566.png", record_pos=(0.131, -0.012), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
+
+touch(Template(r"tpl1591525494538.png", record_pos=(-0.173, -0.084), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
+
+touch(Template(r"tpl1591525540505.png", record_pos=(-0.312, -0.12), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
+
+touch(Template(r"tpl1591525556947.png", record_pos=(0.074, -0.223), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
 
 
 
 
+touch(Template(r"tpl1591525589349.png", record_pos=(0.35, -0.111), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
 
+touch(Template(r"tpl1591525606622.png", record_pos=(-0.028, 0.093), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
+
+touch(Template(r"tpl1591525632159.png", record_pos=(-0.255, -0.03), resolution=(1280, 720)))
+touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+sleep(90.0)
+touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+sleep(3.0)
 
 '''
