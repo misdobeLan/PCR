@@ -73,23 +73,25 @@ touch(Template(r"tpl1591520393705.png", record_pos=(0.445, 0.177), resolution=(1
 
 touch(Template(r"tpl1591524047695.png", record_pos=(0.378, 0.174), resolution=(1280, 720)))
 
+
 touch(Template(r"tpl1591524127244.png", record_pos=(0.195, 0.214), resolution=(1280, 720)))
 touch(Template(r"tpl1591524140258.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)))
 
 
-##############################地下城、战斗时间90秒
+##############################地下城、战斗时间90秒（当前为断崖的遗迹）
 '''
 sleep(3.0)
 
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 touch(Template(r"tpl1591524258990.png", record_pos=(0.409, -0.141), resolution=(1280, 720)))
+touch(Template(r"tpl1591526662889.png", record_pos=(0.238, -0.026), resolution=(1280, 720)))
+touch(Template(r"tpl1591526745618.png", record_pos=(0.114, 0.103), resolution=(1280, 720)))
 
 touch(Template(r"tpl1591524297122.png", record_pos=(0.289, 0.133), resolution=(1280, 720)))
 touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"tpl1591524433132.png", record_pos=(0.398, -0.188), resolution=(1280, 720)))
-touch(Template(r"tpl1591524444046.png", record_pos=(0.321, -0.1), resolution=(1280, 720)))
-
+touch(Template(r"tpl1591526900207.png", record_pos=(0.092, -0.103), resolution=(1280, 720)))
 touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 
 sleep(90.0)
@@ -164,5 +166,6 @@ sleep(90.0)
 touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
 sleep(3.0)
+
 
 '''
