@@ -5,10 +5,9 @@ from airtest.core.api import *
 from airtest.cli.parser import cli_setup
 
 if not cli_setup():
-    auto_setup(__file__, logdir="G:/PCR", devices=[
+    auto_setup(__file__, logdir=True, devices=[
             "Android://127.0.0.1:5037/emulator-5554?cap_method=JAVACAP&&ori_method=ADBORI&&touch_method=ADBTOUCH",
     ])
-
 
 # script content
 print("start...")
@@ -79,7 +78,7 @@ touch(Template(r"tpl1591524140258.png", record_pos=(-0.111, 0.213), resolution=(
 
 
 ##############################地下城、战斗时间90秒（当前为断崖的遗迹）
-'''
+
 sleep(3.0)
 
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
@@ -166,6 +165,3 @@ sleep(90.0)
 touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
 sleep(3.0)
-
-
-'''
