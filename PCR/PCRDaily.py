@@ -94,6 +94,7 @@ touch(Template(r"tpl1591526900207.png", record_pos=(0.092, -0.103), resolution=(
 touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 
 sleep(90.0)
+
 touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
 sleep(3.0)
