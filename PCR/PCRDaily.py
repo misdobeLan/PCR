@@ -20,22 +20,24 @@ print("start...")
 
 
 #  进入登录页
-touch(Template(r"tpl1591432088255.png", record_pos=(-0.334, -0.094), resolution=(1600, 900)))
+touch(Template(r"图标.png", record_pos=(-0.358, -0.072), resolution=(1440, 2960)))
+
 
 
 #进入首页
 touch(Template(r"tpl1591432134084.png", record_pos=(-0.34, 0.247), resolution=(1600, 900)))
 
 #关闭公告
-touch(Template(r"tpl1591432196319.png", record_pos=(0.001, 0.215), resolution=(1600, 900)))
+
+touch(Template(r"关闭.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)))
 
 sleep(2.0)
 
 ##############################进入冒险、收菜JJC、PJJC
-touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
+touch(Template(r"冒险.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 #进入JJC
-touch(Template(r"tpl1591432945059.png", record_pos=(0.108, 0.144), resolution=(1600, 900)))
+touch(Template(r"战斗竞技场.png", record_pos=(0.108, 0.144), resolution=(1600, 900)))
 
 touch(Template(r"tpl1591433014849.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
 touch(Template(r"tpl1591433661947.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
@@ -50,7 +52,7 @@ sleep(3.0)
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 
-touch(Template(r"tpl1591433155402.png", record_pos=(0.358, 0.14), resolution=(1600, 900)))
+touch(Template(r"公主竞技场.png", record_pos=(0.358, 0.14), resolution=(1600, 900)))
 
 touch(Template(r"tpl1591433014849.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
 touch(Template(r"tpl1591433661947.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
@@ -60,7 +62,7 @@ sleep(3.0)
 touch(Template(r"tpl1591450693894.png", record_pos=(0.149, 0.259), resolution=(1600, 900)))
 
 touch(Template(r"tpl1591450723419.png", record_pos=(0.437, 0.16), resolution=(1600, 900)))
-touch(Template(r"tpl1591450741225.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)))
+touch(Template(r"关闭.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)))
 
 #首页收集礼物箱
 sleep(3.0)
