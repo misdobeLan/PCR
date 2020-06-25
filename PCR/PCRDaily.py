@@ -46,7 +46,7 @@ touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 #返回冒险、进入PJJC
 
 sleep(1.0)
-touch(Template(r"tpl1591434670952.png", record_pos=(-0.407, 0.255), resolution=(1600, 900)))
+touch(Template(r"我的主页.png", record_pos=(-0.407, 0.255), resolution=(1600, 900)))
 
 sleep(3.0)
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
@@ -59,9 +59,9 @@ touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 
 #工会之家收集物品
 sleep(3.0)
-touch(Template(r"tpl1591450693894.png", record_pos=(0.149, 0.259), resolution=(1600, 900)))
+touch(Template(r"工会之家.png", record_pos=(0.149, 0.259), resolution=(1600, 900)))
 
-touch(Template(r"tpl1591450723419.png", record_pos=(0.437, 0.16), resolution=(1600, 900)))
+touch(Template(r"工会之家-全部收取.png", record_pos=(0.437, 0.16), resolution=(1600, 900)))
 touch(Template(r"关闭.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)))
 
 #首页收集礼物箱
@@ -72,11 +72,13 @@ touch(Template(r"tpl1591520373056.png", record_pos=(-0.398, 0.255), resolution=(
 
 touch(Template(r"tpl1591520393705.png", record_pos=(0.445, 0.177), resolution=(1280, 720)))
 
-touch(Template(r"tpl1591524047695.png", record_pos=(0.378, 0.174), resolution=(1280, 720)))
+touch(Template(r"礼物-全部收取.png", record_pos=(0.378, 0.174), resolution=(1280, 720)))
+touch(Template(r"礼物-全部收取-OK.png", record_pos=(0.1, 0.182), resolution=(2960, 1440)))
+touch(Template(r"礼物-全部收取-OK-OK.png", record_pos=(-0.002, 0.181), resolution=(2960, 1440)))
+
+touch(Template(r"取消.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)))
 
 
-touch(Template(r"tpl1591524127244.png", record_pos=(0.195, 0.214), resolution=(1280, 720)))
-touch(Template(r"tpl1591524140258.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)))
 
 
 ##############################地下城、战斗时间90秒（当前为断崖的遗迹）
@@ -92,7 +94,8 @@ touch(Template(r"tpl1591526745618.png", record_pos=(0.114, 0.103), resolution=(1
 touch(Template(r"tpl1591524297122.png", record_pos=(0.289, 0.133), resolution=(1280, 720)))
 touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"tpl1591524433132.png", record_pos=(0.398, -0.188), resolution=(1280, 720)))
-touch(Template(r"选择队伍.png", rgb=False, target_pos=6, record_pos=(0.092, -0.103), resolution=(1280, 720)))
+touch(Template(r"选择队伍.png", target_pos=6, record_pos=(0.071, -0.086), resolution=(2960, 1440)))
+
 touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 
 sleep(90.0)
