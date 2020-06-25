@@ -6,7 +6,7 @@ from airtest.cli.parser import cli_setup
 
 if not cli_setup():
     auto_setup(__file__, logdir=True, devices=[
-            "Android://127.0.0.1:5037/emulator-5554?cap_method=JAVACAP&&ori_method=ADBORI&&touch_method=ADBTOUCH",
+            "Android://127.0.0.1:5037/192.168.1.101:5555?cap_method=JAVACAP&&ori_method=ADBORI&&touch_method=ADBTOUCH",
     ])
 
 # script content
@@ -74,7 +74,7 @@ touch(Template(r"tpl1591520393705.png", record_pos=(0.445, 0.177), resolution=(1
 
 touch(Template(r"礼物-全部收取.png", record_pos=(0.378, 0.174), resolution=(1280, 720)))
 touch(Template(r"礼物-全部收取-OK.png", record_pos=(0.1, 0.182), resolution=(2960, 1440)))
-touch(Template(r"礼物-全部收取-OK-OK.png", record_pos=(-0.002, 0.181), resolution=(2960, 1440)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 
 touch(Template(r"取消.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)))
 
@@ -101,73 +101,73 @@ touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1
 sleep(90.0)
 
 touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 
 touch(Template(r"tpl1591524629596.png", record_pos=(-0.216, 0.027), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 touch(Template(r"tpl1591525454566.png", record_pos=(0.131, -0.012), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 touch(Template(r"tpl1591525494538.png", record_pos=(-0.173, -0.084), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 touch(Template(r"tpl1591525540505.png", record_pos=(-0.312, -0.12), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 touch(Template(r"tpl1591525556947.png", record_pos=(0.074, -0.223), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 
 
 
 touch(Template(r"tpl1591525589349.png", record_pos=(0.35, -0.111), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 touch(Template(r"tpl1591525606622.png", record_pos=(-0.028, 0.093), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
 
 touch(Template(r"tpl1591525632159.png", record_pos=(-0.255, -0.03), resolution=(1280, 720)))
-touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
-touch(Template(r"tpl1591524562464.png", record_pos=(0.002, 0.214), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 sleep(3.0)
