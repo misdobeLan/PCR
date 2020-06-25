@@ -86,7 +86,7 @@ sleep(3.0)
 touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 touch(Template(r"tpl1591524258990.png", record_pos=(0.409, -0.141), resolution=(1280, 720)))
-touch(Template(r"tpl1591526662889.png", record_pos=(0.238, -0.026), resolution=(1280, 720)))
+touch(Template(r"断崖的遗迹.png", record_pos=(0.238, -0.026), resolution=(1280, 720)))
 touch(Template(r"tpl1591526745618.png", record_pos=(0.114, 0.103), resolution=(1280, 720)))
 
 touch(Template(r"tpl1591524297122.png", record_pos=(0.289, 0.133), resolution=(1280, 720)))
