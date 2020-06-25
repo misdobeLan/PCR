@@ -39,8 +39,8 @@ touch(Template(r"冒险.png", record_pos=(0.001, 0.257), resolution=(1600, 900))
 #进入JJC
 touch(Template(r"战斗竞技场.png", record_pos=(0.108, 0.144), resolution=(1600, 900)))
 
-touch(Template(r"tpl1591433014849.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
-touch(Template(r"tpl1591433661947.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
+touch(Template(r"收取.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 
 
 #返回冒险、进入PJJC
@@ -54,8 +54,8 @@ touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1
 
 touch(Template(r"公主竞技场.png", record_pos=(0.358, 0.14), resolution=(1600, 900)))
 
-touch(Template(r"tpl1591433014849.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
-touch(Template(r"tpl1591433661947.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
+touch(Template(r"收取.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
+touch(Template(r"OK.png", record_pos=(-0.001, 0.102), resolution=(1600, 900)))
 
 #工会之家收集物品
 sleep(3.0)
@@ -92,7 +92,7 @@ touch(Template(r"tpl1591526745618.png", record_pos=(0.114, 0.103), resolution=(1
 touch(Template(r"tpl1591524297122.png", record_pos=(0.289, 0.133), resolution=(1280, 720)))
 touch(Template(r"tpl1591524325852.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"tpl1591524433132.png", record_pos=(0.398, -0.188), resolution=(1280, 720)))
-touch(Template(r"tpl1591526900207.png", record_pos=(0.092, -0.103), resolution=(1280, 720)))
+touch(Template(r"选择队伍.png", rgb=False, target_pos=6, record_pos=(0.092, -0.103), resolution=(1280, 720)))
 touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 
 sleep(90.0)
