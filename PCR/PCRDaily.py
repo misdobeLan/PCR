@@ -25,7 +25,7 @@ touch(Template(r"图标.png", record_pos=(-0.358, -0.072), resolution=(1440, 296
 
 
 #进入首页
-touch(Template(r"tpl1591432134084.png", record_pos=(-0.34, 0.247), resolution=(1600, 900)))
+touch(Template(r"CRIWARE.png", record_pos=(-0.34, 0.247), resolution=(1600, 900)))
 
 #关闭公告
 
