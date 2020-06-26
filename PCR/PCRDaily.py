@@ -40,7 +40,7 @@ touch(Template(r"冒险.png", record_pos=(0.001, 0.257), resolution=(1600, 900))
 touch(Template(r"战斗竞技场.png", record_pos=(0.108, 0.144), resolution=(1600, 900)))
 
 touch(Template(r"收取.png", record_pos=(-0.193, 0.075), resolution=(1600, 900)))
-touch(Template(r"tpl1593139088767.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
+touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 
 
 
@@ -50,7 +50,7 @@ sleep(1.0)
 touch(Template(r"我的主页.png", record_pos=(-0.407, 0.255), resolution=(1600, 900)))
 
 sleep(3.0)
-touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
+touch(Template(r"冒险.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
 
 touch(Template(r"公主竞技场.png", record_pos=(0.358, 0.14), resolution=(1600, 900)))
@@ -69,9 +69,9 @@ touch(Template(r"关闭.png", record_pos=(-0.003, 0.216), resolution=(1600, 900)
 sleep(3.0)
 
 
-touch(Template(r"tpl1591520373056.png", record_pos=(-0.398, 0.255), resolution=(1280, 720)))
+touch(Template(r"我的主页.png", record_pos=(-0.398, 0.255), resolution=(1280, 720)))
 
-touch(Template(r"tpl1591520393705.png", record_pos=(0.445, 0.177), resolution=(1280, 720)))
+touch(Template(r"礼物.png", record_pos=(0.445, 0.177), resolution=(1280, 720)))
 
 touch(Template(r"礼物-全部收取.png", record_pos=(0.378, 0.174), resolution=(1280, 720)))
 touch(Template(r"礼物-全部收取-OK.png", record_pos=(0.1, 0.182), resolution=(2960, 1440)))
@@ -86,22 +86,21 @@ touch(Template(r"取消.png", record_pos=(-0.111, 0.213), resolution=(1280, 720)
 
 sleep(3.0)
 
-touch(Template(r"tpl1591432342475.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
+touch(Template(r"冒险.png", record_pos=(0.001, 0.257), resolution=(1600, 900)))
 
-touch(Template(r"tpl1591524258990.png", record_pos=(0.409, -0.141), resolution=(1280, 720)))
+touch(Template(r"地下城.png", record_pos=(0.409, -0.141), resolution=(1280, 720)))
 touch(Template(r"断崖的遗迹.png", record_pos=(0.238, -0.026), resolution=(1280, 720)))
-touch(Template(r"tpl1591526745618.png", record_pos=(0.114, 0.103), resolution=(1280, 720)))
+touch(Template(r"地下城确认.png", record_pos=(0.114, 0.103), resolution=(1280, 720)))
 
 touch(Template(r"断崖的遗迹-1层.png", record_pos=(0.289, 0.133), resolution=(1280, 720)))
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
-touch(Template(r"tpl1591524433132.png", record_pos=(0.398, -0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-我的队伍.png", record_pos=(0.398, -0.188), resolution=(1280, 720)))
 touch(Template(r"选择队伍.png", target_pos=6, record_pos=(0.071, -0.086), resolution=(2960, 1440)))
 
-touch(Template(r"tpl1591524467809.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
+touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 
 sleep(90.0)
-
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
@@ -110,26 +109,24 @@ touch(Template(r"断崖的遗迹-2层.png", record_pos=(-0.216, 0.027), resoluti
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
-sleep(3.0)
 
 touch(Template(r"断崖的遗迹-3层.png", record_pos=(0.131, -0.012), resolution=(1280, 720)))
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
-
 sleep(3.0)
 
 touch(Template(r"断崖的遗迹-4层.png", record_pos=(-0.173, -0.084), resolution=(1280, 720)))
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
@@ -137,7 +134,7 @@ touch(Template(r"断崖的遗迹-5层.png", record_pos=(-0.312, -0.12), resoluti
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
@@ -145,7 +142,7 @@ touch(Template(r"断崖的遗迹-6层.png", record_pos=(0.074, -0.223), resoluti
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
@@ -155,7 +152,7 @@ touch(Template(r"断崖的遗迹-7层.png", record_pos=(0.35, -0.111), resolutio
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
@@ -163,7 +160,7 @@ touch(Template(r"断崖的遗迹-8层.png", record_pos=(-0.028, 0.093), resoluti
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
 
@@ -171,6 +168,6 @@ touch(Template(r"断崖的遗迹-9层.png", record_pos=(-0.255, -0.03), resoluti
 touch(Template(r"地下城-挑战.png", record_pos=(0.374, 0.191), resolution=(1280, 720)))
 touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolution=(1280, 720)))
 sleep(90.0)
-touch(Template(r"tpl1591524536226.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
+touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"竞技场-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(3.0)
