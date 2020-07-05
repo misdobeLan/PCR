@@ -6,7 +6,7 @@ from airtest.cli.parser import cli_setup
 
 if not cli_setup():
     auto_setup(__file__, logdir=True, devices=[
-            "Android://127.0.0.1:5037/192.168.1.101:5555?cap_method=JAVACAP&&ori_method=ADBORI&&touch_method=ADBTOUCH",
+            "Android://127.0.0.1:5037/127.0.0.1:21503?cap_method=JAVACAP&&ori_method=ADBORI&&touch_method=ADBTOUCH",
     ])
 
 # script content
@@ -109,7 +109,7 @@ touch(Template(r"地下城-战斗开始.png", record_pos=(0.367, 0.188), resolut
 sleep(90.0)
 touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"地下城-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
-sleep(3.0)
+sleep(4.0)
 
 
 
