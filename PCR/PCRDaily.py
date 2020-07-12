@@ -110,7 +110,7 @@ sleep(90.0)
 touch(Template(r"地下城-下一步.png", record_pos=(0.365, 0.241), resolution=(1280, 720)))
 touch(Template(r"地下城-OK.png", record_pos=(-0.005, 0.09), resolution=(2960, 1440)))
 sleep(4.0)
-
+sleep(4.0)
 
 
 touch(Template(r"断崖的遗迹-3层.png", record_pos=(0.131, -0.012), resolution=(1280, 720)))
